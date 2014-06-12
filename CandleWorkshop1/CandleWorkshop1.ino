@@ -11,6 +11,30 @@ void setup() {
 }
 
 void loop() {
-  //strip.setPixelColor(0, 255, 255, 255);
-  //strip.show();
+  strip.setPixelColor(0, 255, 0, 0);
+  strip.show();
+  delay(2000);
+  strip.setPixelColor(0, 0, 255, 0);
+  strip.show();
+  delay(2000);
+  strip.setPixelColor(0, 0, 0, 255);
+  strip.show();
+  delay(2000);
+  strip.setPixelColor(0, 255, 255, 255);
+  strip.show();
+  delay(2000);
+  
+  strip.setPixelColor(0, 255, 0, 255);
+  strip.show();
+  delay(2000);
+  strip.setPixelColor(0, 255, 255, 0);
+  strip.show();
+  delay(2000);
+  strip.setPixelColor(0, 0, 255, 255);
+  strip.show();
+  delay(2000);
+  
+  strip.setPixelColor(0, 0, 0, 0);
+  strip.show();
+  delay(2000);
 }

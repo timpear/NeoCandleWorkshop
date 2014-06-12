@@ -4,7 +4,9 @@ Adafruit's Arduino IDE is needed to upload the code to a Gemma or Trinket (Ardui
 
 https://learn.adafruit.com/introducing-trinket/setting-up-with-arduino-ide
 
-You must install the NeoPixel library to use the NeoPixels with any Arduino-compatible board.
+This will not run on a Mac unless you change System Preferences / Security & Privacy / General / "Allow applications downloaded from:" to Anywhere.
+
+The Adafruit Arduino IDE includes the NeoPixel library, but if you are using a different board and the standard IDE, download the library from:
 
 https://github.com/adafruit/Adafruit_NeoPixel
 

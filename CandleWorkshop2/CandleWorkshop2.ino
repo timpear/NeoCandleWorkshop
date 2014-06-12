@@ -1,3 +1,5 @@
+// This turns the animations into functions
+
 #include <Adafruit_NeoPixel.h>
 #define PIN 0
 
@@ -9,9 +11,9 @@ void setup() {
 }
 
 void loop() {
-  colorStep(2000);
-  fader();
-  fadeRepeater(4);
+  colorStep(2000); //This calls the colorStep animation, and sends the variable 2000 for delay time
+  fader(); //This calls the fader animation
+  fadeRepeater(4); //This tells fadeRepeater to happen 4 times
 }
 
 void colorStep(int pause) {
